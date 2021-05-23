@@ -70,7 +70,7 @@ echo("Podgląd: 	");
 echo("Imię: $imie Nazwisko: $nazwisko Miejscowosc: $miejscowosc Ulica: $ulica Numer domu: $nrdom Numer karty: $karta Email: $email Numer telefonu: $tel Czy razem z dzieckiem: $dziecko Ilosc dni: $data Ilosc nocy: $noc");
   
 if($osoby>1) {
-    setcookie("osoby", $osoby, time()+60+60+24+28);
+    setcookie("osoby", $osoby, time()+60+60+24+30);
     echo ('<form>');
     for($i = 1; $i<$osoby; $i++) {
         echo('
